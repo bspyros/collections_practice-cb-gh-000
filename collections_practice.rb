@@ -60,12 +60,16 @@ end
 
 def sum_array(array)
   array.inject(0) do |a,i|
-    a += i    
+    a += i
   end
 end
 
 def add_s(array)
   array.each_with_index.collect do |elem, index|
-    
+    if index != 1
+      x << "s"
+    else
+      x
+    end
   end
 end
