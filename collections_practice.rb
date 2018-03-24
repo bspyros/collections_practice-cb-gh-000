@@ -57,3 +57,9 @@ def find_a(array)
     str.start_with?("a")
   end
 end
+
+def sum_array(array)
+  array.inject(0) do |a,i|
+    a += i    
+  end
+end
