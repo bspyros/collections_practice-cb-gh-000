@@ -67,9 +67,9 @@ end
 def add_s(array)
   array.each_with_index.collect do |elem, index|
     if index != 1
-      x << "s"
+      elem << "s"
     else
-      x
+      elem
     end
   end
 end
